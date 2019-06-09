@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--text-size-->
+    <dimen name="normal_button">12dp</dimen>
+    <dimen name="large_text">18dp</dimen>
+
+    <!--margin-->
+    <dimen name="default_margin">10dp</dimen>
+
+    <!--padding-->
+    <dimen name="small_padding">12dp</dimen>
+</resources>

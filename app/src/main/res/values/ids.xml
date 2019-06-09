@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btnDrawable" type="id"/>
+    <item name="btnAnimation" type="id"/>
+    <item name="headerMain" type="id"/>
+</resources>

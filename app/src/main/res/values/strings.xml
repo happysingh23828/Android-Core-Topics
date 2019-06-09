@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">AndroidCoreTopics</string>
+
+
+    <!--MainActivity-->
+    <string name="core_topics_demo">Core Topics Demo</string>
+    <string name="android_drawables">Android Drawables</string>
+    <string name="android_animations">Android Animations</string>
 </resources>
