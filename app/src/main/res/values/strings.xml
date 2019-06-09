@@ -6,4 +6,12 @@
     <string name="core_topics_demo">Core Topics Demo</string>
     <string name="android_drawables">Android Drawables</string>
     <string name="android_animations">Android Animations</string>
+
+
+    <!--AnimationActivity-->
+    <string name="property_object_animation">Property ObjectAnimator</string>
+    <string name="property_value_animation">Property ValueAnimator</string>
+    <string name="click_on_buttons_to_see_animations">Click on buttons to see animations</string>
+    <string name="view_tween_animation">View Tween Animation</string>
+    <string name="view_frame_animation">View Frame Animation</string>
 </resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:ordering="together">
+
+    <animator
+            android:duration="2000"
+            android:valueFrom="1"
+            android:valueTo="0"
+            android:valueType="floatType"
+            android:repeatCount="1"
+            android:repeatMode="reverse"/>
+
+    <objectAnimator
+            android:propertyName="x"
+            android:duration="2000"
+            android:valueTo="400"
+            android:repeatMode="reverse"
+            android:repeatCount="1"
+            android:valueType="floatType"/>
+</set>

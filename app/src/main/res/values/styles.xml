@@ -15,6 +15,17 @@
         <item name="android:textColor">@android:color/white</item>
         <item name="android:layout_margin">@dimen/default_margin</item>
         <item name="android:padding">@dimen/small_padding</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+
+    <style name="AnimationButtonStyle" parent="Theme.AppCompat">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_margin">@dimen/large_margin</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:padding">@dimen/small_padding</item>
     </style>
 
     <style name="NormalHeaderTextView" parent="Theme.AppCompat">
@@ -23,6 +34,17 @@
         <item name="android:textStyle">bold</item>
         <item name="android:textSize">@dimen/large_text</item>
         <item name="android:textColor">@color/md_blue_700</item>
+        <item name="android:layout_marginTop">@dimen/large_margin</item>
         <item name="android:padding">@dimen/small_padding</item>
     </style>
+
+    <style name="DescriptionTextView" parent="Theme.AppCompat">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">@dimen/small_text</item>
+        <item name="android:textColor">@color/md_red_400</item>
+        <item name="android:layout_margin">@dimen/default_margin</item>
+    </style>
+
+
 </resources>

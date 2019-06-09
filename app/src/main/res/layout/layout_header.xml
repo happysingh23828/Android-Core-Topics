@@ -1,0 +1,23 @@
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatTextView
+            android:id="@id/headerMain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/NormalHeaderTextView"
+            android:text="@string/android_animations"
+    />
+
+    <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvHeaderDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/DescriptionTextView"
+            android:text="@string/click_on_buttons_to_see_animations"
+    />
+
+</LinearLayout>

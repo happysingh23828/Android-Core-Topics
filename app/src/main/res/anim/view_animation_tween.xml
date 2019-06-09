@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+     android:shareInterpolator="false"
+     android:repeatMode="reverse"
+     android:duration="7000">
+
+
+    <!--An interpolator is an animation modifier defined in XML that affects the rate of change in an animation.
+     This allows your existing animation effects to be accelerated, decelerated, repeated, bounced, etc.-->
+    <set
+            android:interpolator="@android:anim/bounce_interpolator"
+            android:startOffset="700">
+
+        <!--For changing the view x and y positions-->
+        <scale
+                android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+                android:fromXScale="1.0"
+                android:toXScale="1.4"
+                android:toYScale="1.4"
+                android:pivotX="100%"
+                android:pivotY="100%"
+                android:fillAfter="false"
+                android:duration="2000"/>
+
+        <!--For changing the alpha of view-->
+        <alpha android:fromAlpha="1"
+               android:toAlpha="0.3"
+        />
+
+        <!--Translate Animation can change the visual appearance of an object,but they cannot change the objects
+        themselves. That is, if you apply a translate animation to a view, it would move to a new position,
+        but its click events would not get fired; the click events would still get fired at its previous position.-->
+        <translate android:fromXDelta="0"
+                   android:fromYDelta="0"
+                   android:toYDelta="-100"
+        />
+
+        <!--To rotate the object-->
+        <rotate
+                android:fromDegrees="0"
+                android:toDegrees="360"
+                android:toYScale="0.0"
+                android:pivotX="50%"
+                android:pivotY="50%"
+                android:duration="2000"/>
+    </set>
+</set>

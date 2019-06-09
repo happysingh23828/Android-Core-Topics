@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun onClicks() {
         btnAnimation.setOnClickListener {
-            AnimationDemoActivity.start(this)
+            AnimationDemoActivity.start(this,it)
         }
     }
 }

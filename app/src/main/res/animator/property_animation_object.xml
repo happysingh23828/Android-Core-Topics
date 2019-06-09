@@ -1,0 +1,15 @@
+<set
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:ordering="sequentially">
+
+
+    <!--Making View Scroll to right and return to it's position again -->
+    <objectAnimator
+            android:propertyName="x"
+            android:duration="1000"
+            android:valueTo="400"
+            android:repeatMode="reverse"
+            android:repeatCount="1"
+            android:valueType="floatType"/>
+
+</set>
